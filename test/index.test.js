@@ -25,6 +25,11 @@ describe('index test', () => {
             error: sinon.stub()
         };
         mockery.registerMock('winston', {
+            format: {
+                splat: sinon.stub(),
+                json: sinon.stub(),
+                combine: sinon.stub()
+            },
             createLogger: () => winstonMock,
             transports: {
                 Console: sinon.stub()
