@@ -28,7 +28,8 @@ describe('index test', () => {
             format: {
                 splat: sinon.stub(),
                 json: sinon.stub(),
-                combine: sinon.stub()
+                combine: sinon.stub(),
+                timestamp: sinon.stub()
             },
             createLogger: () => winstonMock,
             transports: {
