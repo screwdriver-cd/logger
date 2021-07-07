@@ -1,7 +1,7 @@
 {
   "name": "screwdriver-logger",
   "version": "1.0.0",
-  "description": "Porvides common logger for Screwdriver components",
+  "description": "Provides common logger for Screwdriver components",
   "main": "index.js",
   "scripts": {
     "pretest": "eslint .",
@@ -16,10 +16,20 @@
     "screwdriver",
     "yahoo"
   ],
-  "author": "https://github.com/jithine",
   "license": "BSD-3-Clause",
+  "author": "Jithin Emmanuel <jithin1987@gmail.com>",
+  "contributors": [
+    "Alan Dong <alandong2016@gmail.com>",
+    "Dao Lam <daolam112@gmail.com>",
+    "Dekus Lam <dekusdenial@hotmail.com>",
+    "Jithin Emmanuel <jithin1987@gmail.com>",
+    "Kevin Lu <klu13960@gmail.com>",
+    "Lakshminarasimhan Parthasarathy <laky@ymail.com>",
+    "Pritam Paul <pritam.paul09@hotmail.com>",
+    "Tiffany Kyi <tiffanykyi@gmail.com>"
+  ],
   "bugs": {
-    "url": "https://github.com/screwdriver-cd/logger/issues"
+    "url": "https://github.com/screwdriver-cd/screwdriver/issues"
   },
   "homepage": "https://github.com/screwdriver-cd/logger#readme",
   "dependencies": {
