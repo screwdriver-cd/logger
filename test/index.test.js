@@ -3,7 +3,7 @@
 /* eslint-disable no-underscore-dangle */
 
 const chai = require('chai');
-const assert = chai.assert;
+const { assert } = chai;
 const mockery = require('mockery');
 const sinon = require('sinon');
 
@@ -48,7 +48,7 @@ describe('index test', () => {
     });
 
     it('tests logger', () => {
-        const logger = require('../index.js'); // eslint-disable-line global-require
+        const logger = require('../index'); // eslint-disable-line global-require
 
         logger.error('this is an error');
 
